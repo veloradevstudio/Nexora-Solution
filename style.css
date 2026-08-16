@@ -1,6 +1,6 @@
 /* =====================================
    NEXORA SOLUTIONS
-   FINAL STYLE - UPDATED
+   FINAL STYLE
 ===================================== */
 
 * {
@@ -442,7 +442,10 @@ header {
     z-index: 1;
 }
 
-/* Blue square decoration removed */
+/* Blue square removed */
+.image-decoration {
+    display: none !important;
+}
 
 @keyframes aboutFloat {
 
