@@ -2,56 +2,108 @@
 <html lang="en">
 
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Nexora Solutions</title>
+<meta name="description"
+content="Nexora Solutions - Modern websites, UI/UX design and digital solutions for modern businesses.">
+
+<meta name="author" content="Velora Studio">
+
+<title>Nexora Solutions | Digital Agency</title>
 
 <link rel="stylesheet" href="style.css">
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
 </head>
 
+
 <body>
 
-<!-- Header -->
 
-<header>
+<!-- =========================
+     HEADER
+========================= -->
+
+<header id="header">
 
 <nav class="navbar">
 
-<div class="logo">
+<a href="#home" class="logo">
 Nexora<span>Solutions</span>
-</div>
+</a>
+
+<button class="menu-toggle"
+aria-label="Open navigation menu"
+aria-expanded="false">
+
+<i class="fa-solid fa-bars"></i>
+
+</button>
+
 
 <ul class="nav-links">
 
-<li><a href="#home">Home</a></li>
+<li>
+<a href="#home">Home</a>
+</li>
 
-<li><a href="#about">About</a></li>
+<li>
+<a href="#about">About</a>
+</li>
 
-<li><a href="#services">Services</a></li>
+<li>
+<a href="#services">Services</a>
+</li>
 
-<li><a href="#projects">Projects</a></li>
+<li>
+<a href="#projects">Projects</a>
+</li>
 
-<li><a href="#team">Team</a></li>
+<li>
+<a href="#team">Team</a>
+</li>
 
-<li><a href="#contact">Contact</a></li>
+<li>
+<a href="#contact">Contact</a>
+</li>
 
 </ul>
+
+
+<a href="#contact" class="nav-btn">
+Let's Talk
+</a>
 
 </nav>
 
 </header>
 
-<!-- Hero Section -->
+
+
+<main>
+
+
+<!-- =========================
+     HERO
+========================= -->
 
 <section class="hero" id="home">
 
 <div class="hero-content">
+
+<span class="hero-tag">
+DIGITAL SOLUTIONS
+</span>
 
 <h1>
 Build Your
@@ -60,8 +112,10 @@ Build Your
 
 <p>
 We create modern, responsive and high-performance
-websites for startups and businesses worldwide.
+websites and digital experiences for startups and
+businesses.
 </p>
+
 
 <div class="hero-buttons">
 
@@ -70,57 +124,136 @@ Get Started
 </a>
 
 <a href="#projects" class="btn-outline">
-Our Work
+View Our Work
 </a>
 
 </div>
 
+
+<div class="hero-trust">
+
+<div>
+<i class="fa-solid fa-circle-check"></i>
+<span>Responsive Design</span>
 </div>
+
+<div>
+<i class="fa-solid fa-circle-check"></i>
+<span>Modern Technology</span>
+</div>
+
+</div>
+
+</div>
+
 
 <div class="hero-image">
 
-<img src="hero.jpg" alt="Hero Image">
+<div class="hero-image-glow"></div>
+
+<img src="hero.jpg"
+alt="Nexora Solutions digital technology"
+loading="eager">
 
 </div>
 
 </section>
-<!-- Stats Section -->
 
-<section class="stats">
+
+
+<!-- =========================
+     STATS
+========================= -->
+
+<section class="stats-section">
+
+<div class="stats">
 
 <div class="stat-box">
-<h2 class="counter" data-target="250">0</h2>
+
+<div class="stat-icon">
+<i class="fa-solid fa-laptop-code"></i>
+</div>
+
+<h2 class="counter" data-target="250">
+0
+</h2>
+
 <p>Projects Completed</p>
+
 </div>
 
+
 <div class="stat-box">
-<h2 class="counter" data-target="120">0</h2>
+
+<div class="stat-icon">
+<i class="fa-solid fa-users"></i>
+</div>
+
+<h2 class="counter" data-target="120">
+0
+</h2>
+
 <p>Happy Clients</p>
+
 </div>
 
+
 <div class="stat-box">
-<h2 class="counter" data-target="8">0</h2>
+
+<div class="stat-icon">
+<i class="fa-solid fa-award"></i>
+</div>
+
+<h2 class="counter" data-target="8">
+0
+</h2>
+
 <p>Years Experience</p>
+
 </div>
 
+
 <div class="stat-box">
+
+<div class="stat-icon">
+<i class="fa-solid fa-headset"></i>
+</div>
+
 <h2>24/7</h2>
+
 <p>Support Available</p>
+
+</div>
+
 </div>
 
 </section>
 
-<!-- About Section -->
+
+
+<!-- =========================
+     ABOUT
+========================= -->
 
 <section class="about" id="about">
 
 <div class="about-image">
-<img src="about.jpg" alt="About Images">
+
+<div class="image-decoration"></div>
+
+<img src="about.jpg"
+alt="Nexora Solutions team and digital workspace"
+loading="lazy">
+
 </div>
+
 
 <div class="about-content">
 
-<h5>ABOUT US</h5>
+<span class="section-label">
+ABOUT US
+</span>
 
 <h2>
 Creative Digital Agency
@@ -128,190 +261,594 @@ Creative Digital Agency
 
 <p>
 Nexora Solutions helps businesses build modern websites,
-professional branding, and high-performance digital solutions.
-Our goal is to create beautiful, fast, and responsive websites
-that help our clients grow online.
+professional digital experiences and high-performance
+solutions designed for the modern online world.
 </p>
+
+<p>
+Our focus is simple — combine clean design, modern
+technology and responsive development to create digital
+products that look professional and perform smoothly.
+</p>
+
 
 <div class="about-features">
 
 <div class="feature">
+
 <i class="fa-solid fa-circle-check"></i>
-<span>Modern Website Design</span>
+
+<span>
+Modern Website Design
+</span>
+
 </div>
+
 
 <div class="feature">
+
 <i class="fa-solid fa-circle-check"></i>
-<span>Responsive Layout</span>
+
+<span>
+Responsive Layout
+</span>
+
 </div>
+
 
 <div class="feature">
+
 <i class="fa-solid fa-circle-check"></i>
-<span>SEO Friendly</span>
+
+<span>
+SEO Friendly
+</span>
+
 </div>
+
 
 <div class="feature">
+
 <i class="fa-solid fa-circle-check"></i>
-<span>Fast Performance</span>
+
+<span>
+Fast Performance
+</span>
+
 </div>
 
 </div>
+
+
+<a href="#services" class="about-btn">
+Explore Services
+<i class="fa-solid fa-arrow-right"></i>
+</a>
 
 </div>
 
 </section>
-<!-- Services Section -->
+
+
+
+<!-- =========================
+     SERVICES
+========================= -->
 
 <section class="services" id="services">
 
 <div class="section-title">
-<h5>OUR SERVICES</h5>
-<h2>What We Provide</h2>
+
+<span class="section-label">
+OUR SERVICES
+</span>
+
+<h2>
+What We Provide
+</h2>
+
 <p>
-We deliver modern digital solutions to help your business grow.
+Modern digital solutions designed to help businesses
+build a stronger online presence.
 </p>
+
 </div>
+
 
 <div class="service-grid">
 
+
 <div class="service-card">
+
+<div class="service-icon">
 <i class="fa-solid fa-laptop-code"></i>
-<h3>Web Development</h3>
-<p>
-Professional, responsive and fast business websites.
-</p>
 </div>
 
+<h3>
+Web Development
+</h3>
+
+<p>
+Professional, responsive and fast websites
+built for modern businesses.
+</p>
+
+<a href="#contact">
+Learn More
+<i class="fa-solid fa-arrow-right"></i>
+</a>
+
+</div>
+
+
+
 <div class="service-card">
+
+<div class="service-icon">
 <i class="fa-solid fa-palette"></i>
-<h3>UI / UX Design</h3>
-<p>
-Beautiful user interfaces with modern user experience.
-</p>
 </div>
 
-<div class="service-card">
-<i class="fa-solid fa-mobile-screen-button"></i>
-<h3>App Development</h3>
+<h3>
+UI / UX Design
+</h3>
+
 <p>
-Powerful mobile applications for Android and iOS.
+Clean and modern user interfaces designed
+for a smooth user experience.
 </p>
+
+<a href="#contact">
+Learn More
+<i class="fa-solid fa-arrow-right"></i>
+</a>
+
+</div>
+
+
+
+<div class="service-card">
+
+<div class="service-icon">
+<i class="fa-solid fa-mobile-screen-button"></i>
+</div>
+
+<h3>
+App Development
+</h3>
+
+<p>
+Modern mobile application experiences
+designed for today's users.
+</p>
+
+<a href="#contact">
+Learn More
+<i class="fa-solid fa-arrow-right"></i>
+</a>
+
 </div>
 
 </div>
 
 </section>
 
-<!-- Projects Section -->
+
+
+<!-- =========================
+     PROJECTS
+========================= -->
 
 <section class="projects" id="projects">
 
 <div class="section-title">
-<h5>OUR PROJECTS</h5>
-<h2>Recent Work</h2>
+
+<span class="section-label">
+OUR PROJECTS
+</span>
+
+<h2>
+Recent Work
+</h2>
+
 <p>
-Some of our latest premium digital projects.
+Explore some of our sample digital projects.
 </p>
+
 </div>
+
 
 <div class="project-grid">
 
-<div class="project-card">
-<img src="project1.jpg" alt="Project 1">
-<div class="project-info">
-<h3>Corporate Website</h3>
-<p>Modern business website.</p>
-</div>
-</div>
 
 <div class="project-card">
-<img src="project2.jpg" alt="Project 2">
-<div class="project-info">
-<h3>E-Commerce Store</h3>
-<p>Professional online shopping website.</p>
-</div>
+
+<div class="project-image">
+
+<img src="project1.jpg"
+alt="Corporate website project"
+loading="lazy">
+
+<div class="project-overlay">
+
+<span>
+Web Development
+</span>
+
 </div>
 
-<div class="project-card">
-<img src="project3.jpg" alt="Project 3">
-<div class="project-info">
-<h3>Startup Landing Page</h3>
-<p>Creative responsive landing page.</p>
 </div>
+
+<div class="project-info">
+
+<h3>
+Corporate Website
+</h3>
+
+<p>
+Modern business website with a professional
+responsive interface.
+</p>
+
+</div>
+
+</div>
+
+
+
+<div class="project-card">
+
+<div class="project-image">
+
+<img src="project2.jpg"
+alt="E-commerce website project"
+loading="lazy">
+
+<div class="project-overlay">
+
+<span>
+E-Commerce
+</span>
+
+</div>
+
+</div>
+
+<div class="project-info">
+
+<h3>
+E-Commerce Store
+</h3>
+
+<p>
+Professional online shopping experience
+with a modern interface.
+</p>
+
+</div>
+
+</div>
+
+
+
+<div class="project-card">
+
+<div class="project-image">
+
+<img src="project3.jpg"
+alt="Startup landing page project"
+loading="lazy">
+
+<div class="project-overlay">
+
+<span>
+Landing Page
+</span>
+
+</div>
+
+</div>
+
+<div class="project-info">
+
+<h3>
+Startup Landing Page
+</h3>
+
+<p>
+Creative responsive landing page designed
+for a growing startup.
+</p>
+
+</div>
+
 </div>
 
 </div>
 
 </section>
-<!-- Team Section -->
+
+
+
+<!-- =========================
+     TEAM
+========================= -->
 
 <section class="team" id="team">
 
 <div class="section-title">
-<h5>OUR TEAM</h5>
-<h2>Meet Our Experts</h2>
-<p>Our experienced professionals deliver quality digital solutions.</p>
+
+<span class="section-label">
+OUR TEAM
+</span>
+
+<h2>
+Meet Our Experts
+</h2>
+
+<p>
+A creative team focused on delivering quality
+digital experiences.
+</p>
+
 </div>
+
 
 <div class="team-grid">
 
-<div class="team-card">
-<img src="team1.jpg" alt="Team 1">
-<h3>David Miller</h3>
-<span>CEO & Founder</span>
-</div>
 
 <div class="team-card">
-<img src="team2.jpg" alt="Team 2">
-<h3>Sophia Wilson</h3>
-<span>UI/UX Designer</span>
+
+<div class="team-image">
+
+<img src="team1.jpg"
+alt="David Miller"
+loading="lazy">
+
 </div>
 
+<div class="team-info">
+
+<h3>
+David Miller
+</h3>
+
+<span>
+CEO & Founder
+</span>
+
+<div class="social-links">
+
+<a href="#" aria-label="LinkedIn">
+<i class="fa-brands fa-linkedin-in"></i>
+</a>
+
+<a href="#" aria-label="Instagram">
+<i class="fa-brands fa-instagram"></i>
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+
+
 <div class="team-card">
-<img src="team3.jpg" alt="Team 3">
-<h3>James Anderson</h3>
-<span>Lead Developer</span>
+
+<div class="team-image">
+
+<img src="team2.jpg"
+alt="Sophia Wilson"
+loading="lazy">
+
+</div>
+
+<div class="team-info">
+
+<h3>
+Sophia Wilson
+</h3>
+
+<span>
+UI/UX Designer
+</span>
+
+<div class="social-links">
+
+<a href="#" aria-label="LinkedIn">
+<i class="fa-brands fa-linkedin-in"></i>
+</a>
+
+<a href="#" aria-label="Instagram">
+<i class="fa-brands fa-instagram"></i>
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+
+
+<div class="team-card">
+
+<div class="team-image">
+
+<img src="team3.jpg"
+alt="James Anderson"
+loading="lazy">
+
+</div>
+
+<div class="team-info">
+
+<h3>
+James Anderson
+</h3>
+
+<span>
+Lead Developer
+</span>
+
+<div class="social-links">
+
+<a href="#" aria-label="LinkedIn">
+<i class="fa-brands fa-linkedin-in"></i>
+</a>
+
+<a href="#" aria-label="Instagram">
+<i class="fa-brands fa-instagram"></i>
+</a>
+
+</div>
+
+</div>
+
 </div>
 
 </div>
 
 </section>
 
-<!-- Contact Section -->
+
+
+<!-- =========================
+     CONTACT
+========================= -->
 
 <section class="contact" id="contact">
 
 <div class="section-title">
-<h5>CONTACT US</h5>
-<h2>Let's Work Together</h2>
-<p>Have a project in mind? Contact us today.</p>
+
+<span class="section-label">
+CONTACT US
+</span>
+
+<h2>
+Let's Work Together
+</h2>
+
+<p>
+Have a project in mind? Tell us about it and
+let's create something great.
+</p>
+
 </div>
+
 
 <div class="contact-container">
 
+
 <div class="contact-info">
 
-<h3>Get In Touch</h3>
+<span class="contact-label">
+GET IN TOUCH
+</span>
 
-<p><i class="fa-solid fa-location-dot"></i> New Delhi, India</p>
+<h3>
+Let's Build Something Amazing
+</h3>
 
-<p><i class="fa-solid fa-phone"></i> +91 98765 43210</p>
+<p>
+Have a website, app or digital project in mind?
+We're ready to help turn your idea into a
+professional digital experience.
+</p>
 
-<p><i class="fa-solid fa-envelope"></i> info@nexorasolutions.com</p>
+
+<div class="contact-detail">
+
+<i class="fa-solid fa-location-dot"></i>
+
+<div>
+
+<strong>Location</strong>
+
+<span>
+New Delhi, India
+</span>
 
 </div>
 
-<form class="contact-form">
+</div>
 
-<input type="text" placeholder="Your Name" required>
 
-<input type="email" placeholder="Your Email" required>
+<div class="contact-detail">
 
-<input type="text" placeholder="Subject">
+<i class="fa-solid fa-phone"></i>
 
-<textarea rows="6" placeholder="Your Message"></textarea>
+<div>
 
-<button type="submit" class="btn">Send Message</button>
+<strong>Phone</strong>
+
+<span>
++91 98765 43210
+</span>
+
+</div>
+
+</div>
+
+
+<div class="contact-detail">
+
+<i class="fa-solid fa-envelope"></i>
+
+<div>
+
+<strong>Email</strong>
+
+<span>
+info@nexorasolutions.com
+</span>
+
+</div>
+
+</div>
+
+</div>
+
+
+
+<form class="contact-form" id="contactForm">
+
+<input
+type="text"
+name="name"
+placeholder="Your Name"
+required
+>
+
+<input
+type="email"
+name="email"
+placeholder="Your Email"
+required
+>
+
+<input
+type="text"
+name="subject"
+placeholder="Subject"
+>
+
+<textarea
+name="message"
+rows="6"
+placeholder="Tell us about your project..."
+required
+></textarea>
+
+
+<button
+type="submit"
+class="btn"
+>
+Send Message
+<i class="fa-solid fa-paper-plane"></i>
+</button>
 
 </form>
 
@@ -319,44 +856,99 @@ Some of our latest premium digital projects.
 
 </section>
 
-<!-- Footer -->
+</main>
+
+
+
+<!-- =========================
+     FOOTER
+========================= -->
 
 <footer class="footer">
 
 <div class="footer-container">
 
-<div class="footer-box">
-<h2>Nexora<span>Solutions</span></h2>
-<p>
-Professional websites and digital solutions for modern businesses.
-</p>
-</div>
 
 <div class="footer-box">
-<h3>Quick Links</h3>
+
+<h2>
+Nexora<span>Solutions</span>
+</h2>
+
+<p>
+Professional websites and digital solutions
+for modern businesses.
+</p>
+
+<div class="footer-socials">
+
+<a href="#" aria-label="Instagram">
+<i class="fa-brands fa-instagram"></i>
+</a>
+
+<a href="#" aria-label="LinkedIn">
+<i class="fa-brands fa-linkedin-in"></i>
+</a>
+
+<a href="#" aria-label="GitHub">
+<i class="fa-brands fa-github"></i>
+</a>
+
+</div>
+
+</div>
+
+
+
+<div class="footer-box">
+
+<h3>
+Quick Links
+</h3>
+
 <a href="#home">Home</a>
 <a href="#about">About</a>
 <a href="#services">Services</a>
 <a href="#projects">Projects</a>
 <a href="#team">Team</a>
 <a href="#contact">Contact</a>
+
 </div>
 
+
+
 <div class="footer-box">
-<h3>Services</h3>
+
+<h3>
+Services
+</h3>
+
 <p>Web Development</p>
 <p>UI/UX Design</p>
 <p>App Development</p>
-<p>Cloud Solutions</p>
-</div>
+<p>Digital Solutions</p>
 
 </div>
+
+
+</div>
+
 
 <div class="footer-bottom">
-<p>© 2026 Nexora Solutions. All Rights Reserved.</p>
+
+<p>
+© 2026 Nexora Solutions. All Rights Reserved.
+</p>
+
+<p class="footer-credit">
+Concept Website • Designed by Velora Studio
+</p>
+
 </div>
 
 </footer>
+
+
 
 <script src="script.js"></script>
 
