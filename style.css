@@ -1,6 +1,6 @@
 /* =====================================
    NEXORA SOLUTIONS
-   FINAL STYLE
+   FINAL STYLE - UPDATED
 ===================================== */
 
 * {
@@ -442,16 +442,7 @@ header {
     z-index: 1;
 }
 
-.image-decoration {
-    position: absolute;
-    width: 130px;
-    height: 130px;
-    border: 2px solid #3b82f6;
-    border-radius: 20px;
-    left: -18px;
-    bottom: -18px;
-    opacity: .35;
-}
+/* Blue square decoration removed */
 
 @keyframes aboutFloat {
 
@@ -1077,10 +1068,6 @@ section.show {
     .about-image,
     .about-content {
         width: 100%;
-    }
-
-    .image-decoration {
-        left: 0;
     }
 
     .about-features {
